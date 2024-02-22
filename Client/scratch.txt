@@ -1,0 +1,40 @@
+submit guess
+    if currentInput < 5 letters
+        return w/ feedback
+    if !valid word
+        return w/ feedback
+    add to guesses
+    if guess != answer
+        if guess # < 6
+            inc guess #
+            clear currentInput
+            return
+        else
+            gameOver()
+            return
+    if guess == answer
+        gameWon()
+        return
+
+
+
+checkRow
+
+if guess does not exist
+    return default styling
+if it does
+    forEach letter in guess array
+        if letter not in remainingLetters
+            return incorrect
+        if letter === answer[index] {
+            return correct
+        } else {
+            return misplaced
+        }
+
+
+
+Total Games Played: 
+Total Games Won:
+Win Percentage:
+Longest Streak:
