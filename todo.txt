@@ -1,0 +1,6 @@
+// Leaderboard
+// daily game vs freeplay
+// setup backend for user stats and tracking daily game
+// friends list for tracking friends scores/sharing
+// dark mode
+// hard mode
